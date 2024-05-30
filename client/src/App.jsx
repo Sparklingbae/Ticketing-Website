@@ -1,6 +1,7 @@
-/* eslint-disable no-unused-vars */
-import { Navbar, Footer, EventList } from "./components"
-import React from 'react';
+
+import { Navbar, EventList,Footer } from "./components"
+import Login from "./components/Login"
+import SignUp from "./components/SignUp"
 
 const App = () => {
 
@@ -8,7 +9,11 @@ const App = () => {
       <div className="App">
         <Navbar />
         <EventList />
+        <Footer />
+        <Login />
+        <SignUp />
       </div>
+  
   )
 }
 
