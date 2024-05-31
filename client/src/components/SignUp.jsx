@@ -1,5 +1,3 @@
-import React from 'react'
-
 const SignUp = () => {
   return (
     <div>
@@ -7,5 +5,4 @@ const SignUp = () => {
     </div>
   )
 }
-
 export default SignUp
