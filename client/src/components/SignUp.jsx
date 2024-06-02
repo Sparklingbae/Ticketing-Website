@@ -37,10 +37,3 @@ const SignUp = () => {
 };
 
 export default SignUp;
-  return (
-    <div>
-      
-    </div>
-  )
-}
-export default SignUp
