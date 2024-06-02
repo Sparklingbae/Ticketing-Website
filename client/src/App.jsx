@@ -1,4 +1,3 @@
-
 import { Navbar, EventList,Footer } from "./components"
 import Login from "./components/Login"
 import SignUp from "./components/SignUp"
