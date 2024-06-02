@@ -1,4 +1,5 @@
 const SignUp = () => {
+<<<<<<< HEAD
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -37,3 +38,12 @@ const SignUp = () => {
 };
 
 export default SignUp;
+=======
+  return (
+    <div>
+      
+    </div>
+  )
+}
+export default SignUp
+>>>>>>> c0f07e6b0b07b8d20515c0bd4b0927bc509db5b9
