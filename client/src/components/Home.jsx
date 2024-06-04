@@ -17,5 +17,4 @@ const Home = () => {
     </nav>
   );
 };
-
-export default Navbar;
+export default Home;
