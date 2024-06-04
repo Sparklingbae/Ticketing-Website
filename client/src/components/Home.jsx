@@ -17,9 +17,5 @@ const Home = () => {
     </nav>
   );
 };
-<<<<<<< HEAD:client/src/components/Navbar.jsx
 
 export default Navbar;
-=======
-export default Home;
->>>>>>> 47aeacf0d253f616b587c54cb845118f3a9430ab:client/src/components/Home.jsx
