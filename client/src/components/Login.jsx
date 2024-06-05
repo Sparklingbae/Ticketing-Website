@@ -33,6 +33,7 @@ const Login = () => {
             <a href="/" className="text-gray-300 hover:text-white mx-2">Home</a>
             <a href="/eventlist" className="text-gray-300 hover:text-white mx-2">Event List</a>
             <a href="/create" className="text-gray-300 hover:text-white mx-2">Create Event</a>
+            <a href="/about" className="text-gray-300 hover:text-white mx-2">About</a>
             <a href="/login" className="text-gray-300 hover:text-white mx-2">Login</a>
             <a href="/register" className="text-gray-300 hover:text-white mx-2">Sign Up</a>
           </div>
