@@ -22,7 +22,6 @@ const Home = () => {
         </div>
       </nav>
       <HeroSection />
-      <Footer />
     </>
   );
 };
