@@ -1,13 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const connectDB = require('./config/db');
+const connectDB = require('./config/db'); // Ensure this path is correct
 
 // Load environment variables
 dotenv.config();
 
 // Connect to MongoDB
-connectDB();
+connectDB(); // Call the connectDB function
 
 // Initialize Express app
 const app = express();
@@ -18,7 +18,7 @@ app.use(express.json());
 // Define routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/events', require('./routes/events'));
-app.use('/api/tickets', require('./routes/tickets'));
+app.use('/api/tickets', require('./routes/tickets').default);
 
 // Get port from environment and store in Express
 const PORT = process.env.PORT || 5000;

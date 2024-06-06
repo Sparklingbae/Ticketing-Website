@@ -23,7 +23,7 @@ exports.registerUser = async (req, res) => {
       user: { id: user.id },
     };
 
-    jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: 3600 }, (err, token) => {
+    jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '1h' }, (err, token) => {
       if (err) throw err;
       res.json({ token });
     });
@@ -53,7 +53,7 @@ exports.loginUser = async (req, res) => {
       user: { id: user.id },
     };
 
-    jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: 3600 }, (err, token) => {
+    jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '1h' }, (err, token) => {
       if (err) throw err;
       res.json({ token });
     });
