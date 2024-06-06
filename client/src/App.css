@@ -40,3 +40,69 @@
 .read-the-docs {
   color: #888;
 }
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero .hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero .hero-text h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.hero .hero-text p {
+  margin: 10px 0;
+  font-size: 1.5em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007BFF;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  font-size: 14px;
+  color: #666;
+}

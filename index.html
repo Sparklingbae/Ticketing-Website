@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketing Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EventPlug</h1>
+        <button id="findeventsBtn">Find Events</button>
+    <button id="createeventsBtn">Create Events</button>
+    <button id="helpcenterBtn">Help Center</button>
+    <button id="aboutBtn">About</button>
+    <button id="loginBtn">Log In</button>
+    <button id="registerBtn">Signup</button>
+    </header>
+    <main>
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <ul id="event-list"></ul>
+        </section>
+        <!-- Event Listings -->
+    <section id="event-listings">
+        <!-- Display event cards here -->
+    </section>
+
+    <!-- Event Details Modal -->
+    <div id="event-details-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Event Name</h2>
+            <p>Date: <span id="event-date"></span></p>
+            <p>Venue: <span id="event-venue"></span></p>
+            <p>Price: <span id="event-price"></span></p>
+            <button id="buy-ticket">Buy Ticket</button>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div id="checkout-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Checkout</h2>
+           <!-- Checkout form --> 
+        </div>
+    </div>
+        </main>
+    <main id="mainContent">
+        <!-- Event listing will be displayed here -->
+
+    <footer>
+        <p>&copy; 2024 Ticketing Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
