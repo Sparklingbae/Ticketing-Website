@@ -5,6 +5,7 @@ import SignUp from "./components/SignUp"
 import EventList from "./components/EventList"
 import Home from './components/Home'
 import Footer from './components/Footer'
+import About from './components/About'
 import HeroSection from './components/HeroSection'
 
 const App = () => {
@@ -19,13 +20,18 @@ const App = () => {
             <Route path="/create" element={<EventList />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/eventlist" element={<Home />} />
+            <Route path="/About" element={<About />} />
           </Routes>
         </BrowserRouter>
+        <main>
+        <section className="hero">
+        <img src="Cover.jpg" alt="Cover" />
+      </section>
+    </main>
         
       <Footer />
     
     </div>
-  
   )
 }
 
