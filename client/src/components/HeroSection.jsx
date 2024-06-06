@@ -131,6 +131,8 @@ function HeroSection() {
               <a href="/eventlist" className="text-sm font-semibold leading-6 text-gray-900">
                 View the events near you <span aria-hidden="true">→</span>
               </a>
+              <a href= "/about" className="text-sm font-semibold leading-6 text-blue-900">
+                About Us</a>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ const teamMembers = [
   },
   {
     name: 'Akinola Ridwan Temitope',
-    linkedin: 'https://www.linkedin.com/in/',
+    linkedin: 'https://www.linkedin.com/in/ridak-id',
     github: 'https://github.com/sefrel',
     twitter: 'https://x.com/akinolaridwan14'
   },
