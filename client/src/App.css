@@ -41,6 +41,15 @@
   color: #888;
 }
 
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
 .hero {
   position: relative;
   text-align: center;
@@ -57,7 +66,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
 }
@@ -84,4 +93,16 @@
 
 .btn:hover {
   background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  font-size: 14px;
+  color: #666;
 }
