@@ -6,7 +6,6 @@ import EventList from "./components/EventList"
 import Home from './components/Home'
 import About from './components/About'
 import Footer from './components/Footer'
-import LandingPage from './components/LandingPage'
 import HeroSection from './components/HeroSection'
 import CreateEvent from './components/CreateEvent'
 
@@ -24,7 +23,6 @@ const App = () => {
             <Route path="/Home" element={<Home />} />
             <Route path="/eventlist" element={<EventList />} />
             <Route path="/about" element={<About />} />
-            <Route path="/landingpage" element={<LandingPage />} />
           </Routes>
         </BrowserRouter>
         

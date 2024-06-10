@@ -95,6 +95,49 @@ header h1 {
   background-color: #0056b3;
 }
 
+.cta-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.feature {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.feature h2 {
+  color: #333;
+}
+
+.feature p {
+  color: #666;
+}
+
+.cta {
+  background-color: #333;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
 footer {
   text-align: center;
   margin-top: 50px;
