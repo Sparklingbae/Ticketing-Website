@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import Footer from '../components/Footer';
+import HeroSection from './HeroSection';
+import Footer from './Footer';
 import About from './About';
-import './Home.css';
 
 const Home = () => {
   return (
