@@ -22,8 +22,10 @@ const teamMembers = [
   }
 ];
 
+
 const About = () => {
   return (
+   
     <section id="about" className="about-section py-0">
       <div className="container mx-auto text-center">
         <h2 className="text-2xl font-bold mb-2">About This Project</h2>

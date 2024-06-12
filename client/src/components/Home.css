@@ -1,0 +1,87 @@
+/* HomePage.css */
+
+.home {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-start; /* Align items to the start (left) */
+  align-items: center;
+}
+
+.logo {
+  width: 80px; /* Set a smaller width for the logo */
+  height: auto;
+}
+
+.hero {
+  background-image: url('../assets/cover.jpg.jpg'); /* Path to your cover image */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff; /* Ensure text is readable on the background image */
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a slight dark overlay for better text readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.feature {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.feature h2 {
+  color: #333;
+}
+
+.feature p {
+  color: #666;
+}
+
+.cta {
+  background-color: #333;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
