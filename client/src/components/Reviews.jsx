@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // Reviews.jsx
 import React from 'react';
 
