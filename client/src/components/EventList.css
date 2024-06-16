@@ -1,23 +1,24 @@
-.eventList {
-    max-width: 800px;
-    margin: 2rem auto;
-  }
-  
-  .eventList ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .eventList li {
-    padding: 1rem;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .eventList li h3 {
-    margin: 0;
-    font-size: 1.5rem;
-  }
-  
-  .eventList li p {
-    margin: 0.5rem 0;
-  }  
+.event-list-container {
+  margin: 20px;
+}
+
+.event-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.view-details-btn {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

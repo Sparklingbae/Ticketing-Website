@@ -1,0 +1,184 @@
+/* EventOrganizers.css */
+
+.event-organizers {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-organizers h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .organizer-signup, .organizer-features {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-form, .event-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form input, .event-form input, .event-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .signup-form input:focus, .event-form input:focus, .event-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .signup-button, .create-event-button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signup-button:hover, .create-event-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-ticket-button {
+    padding: 0.75rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+  }
+  
+  .add-ticket-button:hover {
+    background-color: #218838;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .feature {
+    margin-bottom: 2rem;
+  }
+  
+  .feature h2 {
+    color: #007bff;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .tickets-section {
+    margin-top: 2rem;
+  }
+  
+  .ticket {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  @media (max-width: 600px) {
+    .ticket {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .attendee-list,
+.check-in-system,
+.messaging-system,
+.feedback-forms,
+.networking-tools {
+  margin-top: 3rem;
+}
+
+.attendee-list h3,
+.check-in-system h3,
+.messaging-system h3,
+.feedback-forms h3,
+.networking-tools h3 {
+  margin-bottom: 2rem;
+}
+
+.attendee-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attendee-list th,
+.attendee-list td {
+  padding: 1rem;
+  border: 2px solid #ccc;
+}
+
+.attendee-list th {
+  background-color: #f4f4f4;
+}
+
+.attendee-list button {
+  padding: 1rem 2rem;
+  margin: 0 0.25rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.attendee-list button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.check-in-system button,
+.messaging-system button,
+.feedback-forms button,
+.networking-tools button {
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.check-in-system button:hover,
+.messaging-system button:hover,
+.feedback-forms button:hover,
+.networking-tools button:hover {
+  background-color: #0056b3;
+}
+
+.messaging-system textarea,
+.feedback-forms textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

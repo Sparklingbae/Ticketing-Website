@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React from "react"
-
 const SignUp = () => {
   return (
     <><nav className="bg-gray-800 p-4">
