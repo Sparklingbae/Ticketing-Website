@@ -1,33 +1,41 @@
 /* eslint-disable no-unused-vars */
+import React, { useState } from 'react';
 import HeroSection from "./HeroSection";
 
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 const Login = () => {
-    return (
-      <>
-        {/*
-          This example requires updating your template:
-  
-          ```
-          <html class="h-full bg-white">
-          <body class="h-full">
-          ```
-        */}
-    <nav className="bg-gray-800 p-4">
-       <div className="container mx-auto flex justify-between items-center">
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('http://localhost:5000/api/auth/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email, password }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        alert('Login successful!');
+        // Save token, redirect the user, or perform other actions as needed
+      } else {
+        alert(`Login failed: ${data.msg}`);
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('An error occurred. Please try again.');
+    }
+  };
+
+  return (
+    <>
+      <nav className="bg-gray-800 p-4">
+        <div className="container mx-auto flex justify-between items-center">
           <a href="/" className="text-white text-lg font-bold">EventPlug</a>
           {/*<div>
             <a href="/" className="text-gray-300 hover:text-white mx-2">Home</a>

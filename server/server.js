@@ -10,7 +10,11 @@ dotenv.config();
 connectDB(); // Call the connectDB function
 
 // Initialize Express app
-const app = express();
+const app = express()
+
+app.get('/hello', (req, res) => {
+    res.send('hello')
+})
 
 // Middleware to parse JSON
 app.use(express.json());
@@ -18,7 +22,7 @@ app.use(express.json());
 // Define routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/events', require('./routes/events'));
-app.use('/api/tickets', require('./routes/tickets').default);
+app.use('/api/tickets', require('./routes/tickets'));
 
 // Get port from environment and store in Express
 const PORT = process.env.PORT || 5000;
